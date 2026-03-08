@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram id="ORLAtp4ZEF3xyec_6SPG" name="Sayfa-1">
+    <mxGraphModel dx="947" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="entity_sube" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Şube" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="entity_calisan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Çalışan" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_sube_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;u&gt;şube id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_sube_id" edge="1" parent="1" source="entity_sube" style="endArrow=none;html=1;" target="attr_sube_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_sube_adi" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="şube adı" vertex="1">
+          <mxGeometry height="40" width="80" x="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_sube_adi" edge="1" parent="1" source="entity_sube" style="endArrow=none;html=1;" target="attr_sube_adi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_sube_adres" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adres" vertex="1">
+          <mxGeometry height="40" width="80" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_sube_adres" edge="1" parent="1" source="entity_sube" style="endArrow=none;html=1;" target="attr_sube_adres">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;u&gt;çalışan id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="540" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_id" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_adi" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adı" vertex="1">
+          <mxGeometry height="40" width="80" x="640" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_adi" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_adi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_soyad" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="soyadı" vertex="1">
+          <mxGeometry height="40" width="80" x="740" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_soyad" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_soyad">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_maas" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="maaş" vertex="1">
+          <mxGeometry height="40" width="80" x="800" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_maas" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_maas">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_adres" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="adresi" vertex="1">
+          <mxGeometry height="40" width="80" x="800" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_adres" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_adres">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_calisan_gorev" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="görevi" vertex="1">
+          <mxGeometry height="40" width="80" x="760" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_calisan_gorev" edge="1" parent="1" source="entity_calisan" style="endArrow=none;html=1;" target="attr_calisan_gorev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_calisir" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Çalışır" vertex="1">
+          <mxGeometry height="60" width="100" x="410" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_rel1_sube" edge="1" parent="1" source="entity_sube" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rel_calisir" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_rel1_calisan" edge="1" parent="1" source="rel_calisir" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="entity_calisan" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_yonetici" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Yönetir" vertex="1">
+          <mxGeometry height="60" width="100" x="410" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_rel2_sube" edge="1" parent="1" source="entity_sube" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rel_yonetici" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_rel2_calisan" edge="1" parent="1" source="rel_yonetici" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="entity_calisan" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
